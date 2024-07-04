@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-size: large;
+}
+
+.valor{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.valor input{
+    background-color:  gray;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.operacao{
+    display: flex;
+}
+
+button{
+    border: 2px solid gray;
+    padding: 5px 15px;
+    display: flex;
+    margin: 5px;
+    cursor: pointer;
+}
